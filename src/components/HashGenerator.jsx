@@ -22,20 +22,6 @@ const HashGenerator = () => {
     <div className={styles.containerPrincipal}>
         <h1 className={styles.title}>Generador de Hash Aleatorio</h1>
         <div className={styles.containerSecundario}>
-          {useCustomLength && (
-            <div className={styles.numberInputContainer}>
-              <label className={styles.numberInputLabel}>
-                <input
-                  type="number"
-                  value={customLength}
-                  onChange={handleLengthChange}
-                  min="10"
-                  max="20"
-                  className={styles.numberInput}
-                />
-              </label>
-            </div>
-          )}
           <GenerateButton onClick={generateHash} />
           {hash && (
             <div>
