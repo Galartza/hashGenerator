@@ -1,0 +1,21 @@
+/* GenerateButton.module.css */
+
+.generateButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    border-radius: .5rem;
+  }
+  
+  .generateButton:hover {
+    background-color: #0056b3;
+  }
+  
